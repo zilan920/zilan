@@ -22,6 +22,16 @@
     <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?eda5698e981736463992f6514d0dc58c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 
     <!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header(); ?>
